@@ -21,9 +21,14 @@ export class PolarisChip extends LitElement {
     text-align: center;
     float: left;
 }
-.picture{
-    width: 90px;
-    height: 400px;
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.images img {
+  height: auto;
+  max-width: 30%;
 }
 .card-date .day {
     background: #f7f7f;

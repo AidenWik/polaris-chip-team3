@@ -5,16 +5,16 @@ export class PolarisChip extends LitElement {
       return {
         month: { type: String },
         day: { type: String },
-        active: { type: Boolean, reflect: true}
       };
     }
   
     static get styles() {
       return css`
-    :host {
-        display: inline-block;
-        margin: 0 12px 12px 0;
-      }
+    :host(){
+        display: block; 
+        padding: 10px;  
+        
+    }
 
       .card-date{
     margin-right: 10px;

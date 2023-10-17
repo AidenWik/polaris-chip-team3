@@ -15,7 +15,7 @@ export class PolarisChip extends LitElement {
         display: inline-block;
         margin: 0 12px 12px 0;
       }
-      
+
       .card-date{
     margin-right: 10px;
     text-align: center;
@@ -32,7 +32,7 @@ export class PolarisChip extends LitElement {
     padding: 10px 20px;
 }
 
-. .post-date .month {
+.card-date .month {
     display: block;
     background: #1E407C;
     border-radius: 0 0 2px 2px;

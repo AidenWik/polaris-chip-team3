@@ -61,8 +61,5 @@ export class PolarisChip extends LitElement {
         this.day = "14";
       }
   
-    render() {
-        return html`<a class="link" href="${this.link}"><slot>${this.name}</slot></a>`;
-    }
     }
   

@@ -11,7 +11,12 @@ export class PolarisChip extends LitElement {
   
     static get styles() {
       return css`
-      .card-date .post-date {
+    :host {
+        display: inline-block;
+        margin: 0 12px 12px 0;
+      }
+      
+      .card-date{
     margin-right: 10px;
     text-align: center;
     float: left;
@@ -48,6 +53,8 @@ export class PolarisChip extends LitElement {
         this.day = "14";
       }
   
-    render() {}
+    render() {
+
+    }
     }
   

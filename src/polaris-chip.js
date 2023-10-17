@@ -31,7 +31,7 @@ export class PolarisChip extends LitElement {
   max-width: 30%;
 }
 .card-date .day {
-    background: #f7f7f;
+    background: #f7f7f7;
     border-radius: 2px 2px 0 0;
     color: #444;
     display: block;

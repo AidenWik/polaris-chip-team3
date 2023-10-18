@@ -22,9 +22,8 @@ export class PolarisChip extends LitElement {
     float: left;
 }
 //Will put the h1 and images in the same line
-.images {
-  display: flex;
-  display: inline-block;
+.images{
+    display: inline-block;
 }
 .images img {
   height: auto;

@@ -43,13 +43,13 @@ class PolarisChip extends LitElement {
           padding: 10px 20px;
       }
       
-      .title h1{
+      .title .desc{
           font-size: 1.3em;
           line-height: 1em;
           text-transform: capitalize;
           color: #96BEE6;
       }
-      .title h1:hover{
+      .title .desc:hover{
         color: #1E407C;
       }
       .top-title {
@@ -89,7 +89,7 @@ class PolarisChip extends LitElement {
             </div>
           </div>
           <div class="title">
-            <h1><a style="text-decoration:none" href="https://hr.psu.edu/news/university-reminds-employees-flu-covid-19-vaccines-resources-and-policies"> University reminds employees of flu, COVID-19 vaccines, resources and policies</h1></a>
+            <label class="desc"><a style="text-decoration:none" href="https://hr.psu.edu/news/university-reminds-employees-flu-covid-19-vaccines-resources-and-policies"> University reminds employees of flu, COVID-19 vaccines, resources and policies</h1></a>
           </div>
         </div>
         <div class="short-desc">

@@ -21,7 +21,10 @@ class PolarisChip extends LitElement {
         border: 1px solid #ccc;
         text-align: center;
         position: relative;
-        display: inline;
+        display: flex;
+        justify-content: space-between; /* Adjust as needed to control spacing between elements */
+        align-items: center; /* Align vertically in the center */
+        flex-wrap: wrap; /* Allow elements to wrap to the next row if needed */
       }
       .month-label .month{
         display: block;

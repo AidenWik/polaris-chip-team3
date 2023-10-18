@@ -24,7 +24,7 @@ class PolarisChip extends LitElement {
           border-radius: 5px;
           padding: 20px;
         }
-        .date-wrapper{
+        .mid-wrapper{
           width: 64px;
           height: 40px;
           border: 1px solid #ccc;
@@ -34,8 +34,8 @@ class PolarisChip extends LitElement {
           text-align: center;
           float: left;
         }
-        .top-title .h2 {
-          font-size: 25em;npm
+        .top-title h2 {
+          font-size: 25em;
           font-weight: 700;
           line-height: 3.6875rem;
           margin: 0 0 5px 0;
@@ -85,7 +85,7 @@ class PolarisChip extends LitElement {
       <img src="https://hr.psu.edu/sites/hr/files/styles/article_home_page/public/2023-10/FluVaccines_HRFeature.jpg?h=09bc788e&itok=KEMIew2T" alt="picture :D" width="386" height="171">
     </a>
   </div>
-  <div class="top-wrapper">
+  <div class="mid-wrapper">
     <div class="date-card">
       <div class="month-label">
         <label class="month">Oct</label>

@@ -30,6 +30,20 @@ export class PolarisChip extends LitElement {
           line-height: 3.6875rem;
           margin: 0 0 5px 0;
         }
+        .top-wrapper {
+
+        }
+        .top-wrapper .date-card .month-label .month{
+          display: block;
+          background: #1E407C;
+          border-radius: 0 0 2px 2px;
+          color: #FFF;
+          font-size: 0.8em;
+          font-weight: bold;
+          line-height: 1.8;
+          padding: 1px 10px;
+          text-transform: uppercase;
+        }
 
       `;
     }

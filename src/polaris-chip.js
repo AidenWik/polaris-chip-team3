@@ -21,6 +21,31 @@ export class PolarisChip extends LitElement {
     text-align: center;
     float: left;
 }
+.date-card .day{ 
+    background: #f7f7f7;
+    border-radius: 2px 2px 0 0;
+    color: #444;
+    display: block;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 10px 20px;
+} 
+.date-card .month{
+    display: block;
+    background: #1E407C;
+    border-radius: 0 0 2px 2px;
+    color: #FFF;
+    font-size: 0.8em;
+    font-weight: bold;
+    line-height: 1.8;
+    padding: 1px 10px;
+    text-transform: uppercase;
+}
+.card-date{
+    display: inline-block;
+    margin: 20px 0;
+}
+
 .date-wrapper{
    width: 64px;
    height: 40px;
@@ -49,12 +74,7 @@ export class PolarisChip extends LitElement {
     font-weight: 900;
     padding: 10px 20px;
 }
-@media (max-width: 500px) {
-    .date-wrapper {
-        max-width: 100%; /* Expand the card to the full width of the viewport */
-        padding: 10px; /* Adjust padding for smaller screens if needed */
-    }
-}
+
 .date-wrapper{
 margin-right: 10px;
     text-align: center;

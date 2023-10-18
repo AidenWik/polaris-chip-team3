@@ -64,4 +64,3 @@ class PolarisChip extends LitElement {
       }
     
     }
-    customElements.define('polaris-chip', PolarisChip);

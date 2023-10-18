@@ -63,6 +63,7 @@ export class PolarisChip extends LitElement {
           font-size: 18px;
           font-weight: 900;
           padding: 10px 20px;
+        }
       `;
     }
   
@@ -72,5 +73,5 @@ export class PolarisChip extends LitElement {
         this.day = "14";
       }
   
+    
     }
-  

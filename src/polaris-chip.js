@@ -78,10 +78,10 @@ class PolarisChip extends LitElement {
         <div class="mid-wrapper">
           <div class="date-card">
             <div class="month-label">
-              <label class="month">Oct</label>
+              <label class="month"><slot>${this.month}</slot></label>
             </div>
             <div class="day-label">
-              <label class="day">10</label>
+              <label class="day"><slot>${this.day}</slot></label>
             </div>
           </div>
           <div class="title">

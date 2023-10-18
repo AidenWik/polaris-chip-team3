@@ -16,15 +16,6 @@ export class PolarisChip extends LitElement {
         color: var(--polaris-chip-text-color, #000);
       }
 
-    .container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
 .upper{
     display: webkit box;
     display: ms flexbox;

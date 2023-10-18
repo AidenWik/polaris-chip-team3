@@ -11,7 +11,7 @@ export class PolarisChip extends LitElement {
     static get styles() {
       return css`
       :host {
-        display: block;
+        display: inline-block;
         padding: 25px;
         color: var(--polaris-chip-text-color, #000);
       }

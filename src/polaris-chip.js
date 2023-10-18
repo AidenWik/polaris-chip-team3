@@ -11,8 +11,6 @@ class PolarisChip extends LitElement {
   static get styles() {
     return css`
       .card-container {
-        width: 386px;
-        height: 400px;
         background-color: #ffffff;
         border-radius: 8px;
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);

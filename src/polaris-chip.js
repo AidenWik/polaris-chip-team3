@@ -16,47 +16,15 @@ export class PolarisChip extends LitElement {
         
     }
 
-      .date-card{
-    margin-right: 10px;
-    text-align: center;
-    float: left;
-}
-.date-card .day{ 
-    background: #f7f7f7;
-    border-radius: 2px 2px 0 0;
-    color: #444;
-    display: block;
-    font-size: 18px;
-    font-weight: 900;
-    padding: 10px 20px;
-} 
-.date-card .month{
-    display: block;
-    background: #1E407C;
-    border-radius: 0 0 2px 2px;
-    color: #FFF;
-    font-size: 0.8em;
-    font-weight: bold;
-    line-height: 1.8;
-    padding: 1px 10px;
-    text-transform: uppercase;
-}
-.date-card .date-wrapper{
-    display: inline-block;
-}
-.date-card .date-wrapper .day{
-    font-size: 2.6px;
-    line-height: inherit;
-    margin: inherit;
-    font-family: 'Roboto',sans-serif;
-}
-.date-card .date-wrapper .month{
-    font-size: 1.3px;
-    line-height: inherit;
-    margin: inherit;
-    font-family: 'Roboto',sans-serif;
-
-  }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
 .upper{
     display: webkit box;
     display: ms flexbox;
@@ -85,28 +53,6 @@ export class PolarisChip extends LitElement {
   text-transform: capitalize;
   color: #005fa9;
 }
-.card-date .day {
-    background: #f7f7f7;
-    border-radius: 2px 2px 0 0;
-    color: #444;
-    display: block;
-    font-size: 18px;
-    font-weight: 900;
-    padding: 10px 20px;
-}
-
-.card-date .month {
-    display: block;
-    background: #1E407C;
-    border-radius: 0 0 2px 2px;
-    color: #FFF;
-    font-size: 0.8em;
-    font-weight: bold;
-    line-height: 1.8;
-    padding: 1px 10px;
-    text-transform: uppercase;
-}
-
       `;
     }
   

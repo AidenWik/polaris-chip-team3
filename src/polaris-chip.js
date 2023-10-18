@@ -25,7 +25,8 @@ export class PolarisChip extends LitElement {
 .images {
   display: flex;
   justify-content: center;
-  align-items: inline;
+  align-items: center;
+  display:inline-block;
 }
 .images img {
   height: auto;

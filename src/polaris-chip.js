@@ -13,7 +13,7 @@ export class PolarisChip extends LitElement {
         :host {
           color: white;
         }
-        .top-title {
+        .top-title .h2 {
           font-size: 25em;
           font-weight: 700;
           line-height: 3.6875rem;

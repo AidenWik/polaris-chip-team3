@@ -37,7 +37,7 @@ class PolarisChip extends LitElement {
       }
       
       .title h1{
-          font-size: 2.6px;
+          font-size: 2.6em;
           line-height: inherit;
           margin: inherit;
           font-family: 'Roboto',sans-serif;

@@ -43,23 +43,23 @@ class PolarisChip extends LitElement {
           padding: 10px 20px;
       }
       @media (max-width: 500px) {
-          .date-wrapper {
+          .mid-wrapper {
               max-width: 100%; /* Expand the card to the full width of the viewport */
               padding: 10px; /* Adjust padding for smaller screens if needed */
           }
       }
-      .date-wrapper{
+      .mid-wrapper{
       margin-right: 10px;
           text-align: center;
           float: left;
       }
-      .upper{
+      .date-card{
           display: webkit box;
           display: ms flexbox;
           display: flex
           margin: 20px 0;
       }
-      .upper .para{
+      .title h1{
           font-size: 2.6px;
           line-height: inherit;
           margin: inherit;

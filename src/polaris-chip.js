@@ -18,6 +18,10 @@ class PolarisChip extends LitElement {
       .images:hover {
         opacity: 0.6;
       }
+      .mid-wrapper {
+        display: flex;
+        flex-direction: row;
+      }
       .month-label .month{
         display: block;
         background: #1E407C;

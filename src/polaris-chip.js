@@ -33,12 +33,15 @@ export class PolarisChip extends LitElement {
           margin-right: 10px;
           text-align: center;
           float: left;
-}
+        }
         .top-title .h2 {
           font-size: 25em;npm
           font-weight: 700;
           line-height: 3.6875rem;
           margin: 0 0 5px 0;
+        }
+        .images: :hover {
+          opacity: 0.6;
         }
         .top-wrapper {
 

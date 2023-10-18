@@ -44,7 +44,14 @@ export class PolarisChip extends LitElement {
           padding: 1px 10px;
           text-transform: uppercase;
         }
-
+        .month-label .day {
+          background: #f7f7f7;
+          border-radius: 2px 2px 0 0;
+          color: #444;
+          display: block;
+          font-size: 18px;
+          font-weight: 900;
+          padding: 10px 20px;
       `;
     }
   

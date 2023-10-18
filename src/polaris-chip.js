@@ -42,7 +42,6 @@ class PolarisChip extends LitElement {
           font-weight: 900;
           padding: 10px 20px;
       }
-      
       .title .desc{
           font-size: 1.3em;
           line-height: 1em;
@@ -89,7 +88,7 @@ class PolarisChip extends LitElement {
             </div>
           </div>
           <div class="title">
-            <label class="desc"><a style="text-decoration:none" href="https://hr.psu.edu/news/university-reminds-employees-flu-covid-19-vaccines-resources-and-policies"> University reminds employees of flu, COVID-19 vaccines, resources and policies</h1></a>
+            <label class="desc"><a style="text-decoration:none" href="https://hr.psu.edu/news/university-reminds-employees-flu-covid-19-vaccines-resources-and-policies"> University reminds employees of flu, COVID-19 vaccines, resources and policies</label></a>
           </div>
         </div>
         <div class="short-desc">

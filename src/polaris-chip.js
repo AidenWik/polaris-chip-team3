@@ -47,7 +47,16 @@ class PolarisChip extends LitElement {
           line-height: 1em;
           text-transform: capitalize;
           color: #96BEE6;
+          a { color:red } /* Globally */
+
+          /* Each state */
       }
+      
+          a:visited { text-decoration: none; color:red; }
+          a:hover { text-decoration: none; color:blue; }
+          a:focus { text-decoration: none; color:yellow; }
+          a:hover, a:active { text-decoration: none; color:black }
+      
       .title .desc:hover{
         color: #1E407C;
       }

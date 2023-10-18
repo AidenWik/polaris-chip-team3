@@ -33,10 +33,9 @@ export class PolarisChip extends LitElement {
           margin-right: 10px;
           text-align: center;
           float: left;
-   
 }
         .top-title .h2 {
-          font-size: 25em;
+          font-size: 25em;npm
           font-weight: 700;
           line-height: 3.6875rem;
           margin: 0 0 5px 0;
@@ -72,6 +71,19 @@ export class PolarisChip extends LitElement {
         this.month = 'Oct';
         this.day = "14";
       }
-  
+      render() {
+        return html`
+          <div class="card-container">
+            <div class="top-wrapper">
+              <div class="date-wrapper">
+                <div class="month-label">
+                  <span class="month">${this.month}</span>
+                  <span class="day">${this.day}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        `;
+      }
     
     }

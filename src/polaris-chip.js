@@ -14,11 +14,10 @@ export class PolarisChip extends LitElement {
           color: white;
         }
         .top-title {
-          font-size: 2.2em;
+          font-size: 25em;
           font-weight: 700;
           line-height: 3.6875rem;
           margin: 0 0 5px 0;
-
         }
       `;
     }

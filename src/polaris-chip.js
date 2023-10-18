@@ -47,7 +47,7 @@ class PolarisChip extends LitElement {
           font-size: 1.3em;
           line-height: 1em;
           text-transform: capitalize;
-          color: #005fa9;
+          color: #96BEE6;
       }
       .title h1:hover{
         color: #1E407C;

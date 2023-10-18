@@ -21,7 +21,7 @@ export class PolarisChip extends LitElement {
     text-align: center;
     float: left;
 }
-
+//Will put the h1 and images in the same line
 .images {
   display: flex;
   display: inline-block;

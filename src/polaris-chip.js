@@ -1,6 +1,6 @@
 import { PolarisChip } from './PolarisChip.js';
 
-export class PolarisChip extends LitElement {
+class PolarisChip extends LitElement {
     static get properties() {
       return {
         month: { type: String },

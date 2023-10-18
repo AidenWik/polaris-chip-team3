@@ -7,60 +7,24 @@ class PolarisChip extends LitElement {
         day: { type: String },
       };
     }
-  
-    static get styles() {
-      return css`
-        :host {
-          color: white;
-        }
-        .card-container {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          width: 100%;
-          height: 100%;
-          background-color: #f5f5f5;
-          border-radius: 5px;
-          padding: 20px;
-        }
-        .mid-wrapper{
-          width: 64px;
-          height: 40px;
-          border: 1px solid #ccc;
-          text-align: center;
-          position: relative;
-          margin-right: 10px;
-          text-align: center;
-          float: left;
-        }
-        .top-title h2 {
-          font-size: 25em;
-          font-weight: 700;
-          line-height: 3.6875rem;
-          margin: 0 0 5px 0;
-        }
-        .images:hover {
-          opacity: 0.6;
-        }
-        .top-wrapper {
+      static get styles() {
+        return css`
+          .card-container {
+            width: 386px;
+            height: 400px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+          }
+          .top-title {
+            font-size: 2.3em;
+            font-weight: 700;
+            line-height: 3.6875rem;
+            margin: 0 0 5px 0;
+          }
 
-        }
-        .images {
-          width: 100%;
-          height: 100%;
-          border-radius: 5px;
-          overflow: hidden;
-        }
-        .date-card {
-          width: 100%;
-          height: 100%;
-          border-radius: 5px;
-          overflow: hidden;
-        }
-        
-      `;
-    }
+    `;
+      }
   
     constructor() {
         super();

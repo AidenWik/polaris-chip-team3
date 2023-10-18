@@ -21,10 +21,11 @@ export class PolarisChip extends LitElement {
     text-align: center;
     float: left;
 }
+
 .images {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: inline;
 }
 .images img {
   height: auto;

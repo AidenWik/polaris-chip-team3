@@ -15,7 +15,21 @@ export class PolarisChip extends LitElement {
         padding: 25px;
         color: var(--polaris-chip-text-color, #000);
       }
-
+ // allign the date-card nwxt to the h1 text
+  .date-card{
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.3em;
+    line-height: 1.8;
+    text-transform: capitalize;
+    color: #005fa9;
+  }
+  
 .upper{
     display: webkit box;
     display: ms flexbox;

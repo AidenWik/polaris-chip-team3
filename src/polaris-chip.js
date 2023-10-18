@@ -21,7 +21,7 @@ class PolarisChip extends LitElement {
         border: 1px solid #ccc;
         text-align: center;
         position: relative;
-        display: inline-block;
+        display: inline;
       }
       .month-label .month{
         display: block;

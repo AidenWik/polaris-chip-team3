@@ -15,6 +15,12 @@ class PolarisChip extends LitElement {
         border-radius: 8px;
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
       }
+      @media (max-width: 500px) {
+      .date-wrapper {
+        max-width: 100%; /* Expand the card to the full width of the viewport */
+        padding: 10px; /* Adjust padding for smaller screens if needed */
+        }
+      }
       .top-title {
         font-size: 2.3em;
         font-weight: 700;

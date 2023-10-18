@@ -41,45 +41,22 @@ export class PolarisChip extends LitElement {
     padding: 1px 10px;
     text-transform: uppercase;
 }
-.card-date{
+.date-card .date-wrapper{
     display: inline-block;
-    margin: 20px 0;
 }
+.date-card .date-wrapper .day{
+    font-size: 2.6px;
+    line-height: inherit;
+    margin: inherit;
+    font-family: 'Roboto',sans-serif;
+}
+.date-card .date-wrapper .month{
+    font-size: 1.3px;
+    line-height: inherit;
+    margin: inherit;
+    font-family: 'Roboto',sans-serif;
 
-.date-wrapper{
-   width: 64px;
-   height: 40px;
-   border: 1px solid #ccc;
-   text-align: center;
-    position: relative;
-   
-}
-.month-label .month{
-       display: block;
-    background: #1E407C;
-    border-radius: 0 0 2px 2px;
-    color: #FFF;
-    font-size: 0.8em;
-    font-weight: bold;
-    line-height: 1.8;
-    padding: 1px 10px;
-    text-transform: uppercase;
-}
-.day-label .day{
-    background: #f7f7f7;
-    border-radius: 2px 2px 0 0;
-    color: #444;
-    display: block;
-    font-size: 18px;
-    font-weight: 900;
-    padding: 10px 20px;
-}
-
-.date-wrapper{
-margin-right: 10px;
-    text-align: center;
-    float: left;
-}
+  }
 .upper{
     display: webkit box;
     display: ms flexbox;

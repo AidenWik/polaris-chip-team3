@@ -16,7 +16,7 @@ export class PolarisChip extends LitElement {
         
     }
 
-      .card-date{
+      .date-card{
     margin-right: 10px;
     text-align: center;
     float: left;

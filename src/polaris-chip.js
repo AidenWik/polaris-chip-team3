@@ -46,26 +46,19 @@ class PolarisChip extends LitElement {
         .top-wrapper {
 
         }
-        .top-wrapper .date-card .month-label .month{
-          display: block;
-          background: #1E407C;
-          border-radius: 0 0 2px 2px;
-          color: #FFF;
-          font-size: 0.8em;
-          font-weight: bold;
-          line-height: 1.8;
-          padding: 1px 10px;
-          text-transform: uppercase;
+        .images {
+          width: 100%;
+          height: 100%;
+          border-radius: 5px;
+          overflow: hidden;
         }
-        .month-label .day {
-          background: #f7f7f7;
-          border-radius: 2px 2px 0 0;
-          color: #444;
-          display: block;
-          font-size: 18px;
-          font-weight: 900;
-          padding: 10px 20px;
+        .date-card {
+          width: 100%;
+          height: 100%;
+          border-radius: 5px;
+          overflow: hidden;
         }
+        
       `;
     }
   

@@ -40,7 +40,7 @@ class PolarisChip extends LitElement {
           line-height: 3.6875rem;
           margin: 0 0 5px 0;
         }
-        .images: :hover {
+        .images:hover {
           opacity: 0.6;
         }
         .top-wrapper {

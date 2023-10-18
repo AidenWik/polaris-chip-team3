@@ -29,7 +29,7 @@ export class PolarisChip extends LitElement {
   height: auto;
   max-width: 30%;
 }
-.imagees .h1 {  
+.title .h1 {  
   font-size: 1.3em;
   font-weight: 1em;
   line-height: 1.8;

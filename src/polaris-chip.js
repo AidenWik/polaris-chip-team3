@@ -46,12 +46,7 @@ class PolarisChip extends LitElement {
           font-weight: 900;
           padding: 10px 20px;
       }
-      @media (max-width: 500px) {
-          .mid-wrapper {
-              max-width: 100%; /* Expand the card to the full width of the viewport */
-              padding: 10px; /* Adjust padding for smaller screens if needed */
-          }
-        }
+      
       .title h1{
           font-size: 2.6px;
           line-height: inherit;

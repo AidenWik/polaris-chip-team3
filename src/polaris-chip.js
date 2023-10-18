@@ -47,6 +47,7 @@ class PolarisChip extends LitElement {
           font-size: 1.3em;
           line-height: 1em;
           text-transform: capitalize;
+          color: #005fa9;
       }
       .top-title {
         font-size: 2.3em;

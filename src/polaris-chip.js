@@ -10,11 +10,15 @@ export class PolarisChip extends LitElement {
   
     static get styles() {
       return css`
-    :host(){
-        display: block; 
-        padding: 10px;  
-        
-    }
+      .c { 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+      }
 
     .container{
         display: flex;

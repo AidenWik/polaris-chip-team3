@@ -15,17 +15,6 @@ class PolarisChip extends LitElement {
         border-radius: 8px;
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
       }
-      .date-wrapper{
-        width: 64px;
-        height: 40px;
-        border: 1px solid #ccc;
-        text-align: center;
-        position: relative;
-        display: flex;
-        justify-content: space-between; /* Adjust as needed to control spacing between elements */
-        align-items: center; /* Align vertically in the center */
-        flex-wrap: wrap; /* Allow elements to wrap to the next row if needed */
-      }
       .month-label .month{
         display: block;
         background: #1E407C;

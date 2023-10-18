@@ -15,11 +15,55 @@ class PolarisChip extends LitElement {
         border-radius: 8px;
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
       }
+      .date-wrapper{
+        width: 64px;
+        height: 40px;
+        border: 1px solid #ccc;
+        text-align: center;
+        position: relative;
+      }
+      .month-label .month{
+        display: block;
+        background: #1E407C;
+        border-radius: 0 0 2px 2px;
+        color: #FFF;
+        font-size: 0.8em;
+        font-weight: bold;
+        line-height: 1.8;
+        padding: 1px 10px;
+        text-transform: uppercase;
+      }
+      .day-label .day{
+          background: #f7f7f7;
+          border-radius: 2px 2px 0 0;
+          color: #444;
+          display: block;
+          font-size: 18px;
+          font-weight: 900;
+          padding: 10px 20px;
+      }
       @media (max-width: 500px) {
-      .date-wrapper {
-        max-width: 100%; /* Expand the card to the full width of the viewport */
-        padding: 10px; /* Adjust padding for smaller screens if needed */
-        }
+          .date-wrapper {
+              max-width: 100%; /* Expand the card to the full width of the viewport */
+              padding: 10px; /* Adjust padding for smaller screens if needed */
+          }
+      }
+      .date-wrapper{
+      margin-right: 10px;
+          text-align: center;
+          float: left;
+      }
+      .upper{
+          display: webkit box;
+          display: ms flexbox;
+          display: flex
+          margin: 20px 0;
+      }
+      .upper .para{
+          font-size: 2.6px;
+          line-height: inherit;
+          margin: inherit;
+          font-family: 'Roboto',sans-serif;
       }
       .top-title {
         font-size: 2.3em;

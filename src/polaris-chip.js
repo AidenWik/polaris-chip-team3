@@ -30,6 +30,13 @@ export class PolarisChip extends LitElement {
   height: auto;
   max-width: 30%;
 }
+.imagees .h1 {  
+  font-size: 1.5em;
+  font-weight: 900;
+  line-height: 1.8;
+  padding: 1px 10px;
+  text-transform: uppercase;
+}
 .card-date .day {
     background: #f7f7f7;
     border-radius: 2px 2px 0 0;

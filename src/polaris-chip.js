@@ -52,11 +52,6 @@ class PolarisChip extends LitElement {
               padding: 10px; /* Adjust padding for smaller screens if needed */
           }
       }
-      .mid-wrapper{
-      margin-right: 10px;
-          text-align: center;
-          float: left;
-      }
       .date-card{
           display: webkit box;
           display: ms flexbox;

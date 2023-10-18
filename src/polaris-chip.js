@@ -24,6 +24,17 @@ export class PolarisChip extends LitElement {
           border-radius: 5px;
           padding: 20px;
         }
+        .date-wrapper{
+          width: 64px;
+          height: 40px;
+          border: 1px solid #ccc;
+          text-align: center;
+          position: relative;
+          margin-right: 10px;
+          text-align: center;
+          float: left;
+   
+}
         .top-title .h2 {
           font-size: 25em;
           font-weight: 700;

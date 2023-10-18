@@ -51,13 +51,7 @@ class PolarisChip extends LitElement {
               max-width: 100%; /* Expand the card to the full width of the viewport */
               padding: 10px; /* Adjust padding for smaller screens if needed */
           }
-      }
-      .date-card{
-          display: webkit box;
-          display: ms flexbox;
-          display: flex
-          margin: 20px 0;
-      }
+        }
       .title h1{
           font-size: 2.6px;
           line-height: inherit;

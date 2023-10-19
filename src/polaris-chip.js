@@ -12,7 +12,7 @@ class PolarisChip extends LitElement {
     return css`
       .card-container {
         display: inline-block;
-        max-width: 200px; /* Decrease the maximum width to make the card smaller */
+        max-width: 20px; /* Decrease the maximum width to make the card smaller */
         width: 100%; /* Make the card responsive within the parent container */
         padding: 10px; /* Decrease padding for spacing */
         border: 1px solid #ccc;

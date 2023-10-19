@@ -33,7 +33,7 @@ class PolarisChip extends LitElement {
         margin: 0;
         padding: 0;
         overflow: hidden;
-        border-radius: 2px;
+        border-radius: 0px;
       }
       .mid-wrapper {
         display: flex;

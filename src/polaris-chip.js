@@ -54,6 +54,9 @@ class PolarisChip extends LitElement {
           text-transform: capitalize;
           color: #96BEE6;
       }
+      .desc {
+        font-family: 'Roboto',sans-serif;
+      }
           a { color: #1E407C}
           a:visited { text-decoration: none; color:#1E407C; }
           a:hover { text-decoration: none; color:#001E44; }

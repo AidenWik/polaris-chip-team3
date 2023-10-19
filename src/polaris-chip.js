@@ -83,6 +83,7 @@ class PolarisChip extends LitElement {
         font-weight: 700;
         line-height: 3.6875rem;
         margin: 0 0 0 0;
+        padding-bottom: 0px;
         position: left;
         text-align: left;
       }

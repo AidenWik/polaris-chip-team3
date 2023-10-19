@@ -50,6 +50,7 @@ class PolarisChip extends LitElement {
       .title .desc{
           font-size: 1.3em;
           line-height: 1em;
+          font-family: 'Roboto',sans-serif;
           text-transform: capitalize;
           color: #96BEE6;
       }

@@ -21,13 +21,11 @@ class PolarisChip extends LitElement {
         position: relative;
         margin-bottom: 200px;
       }
-      .images img{
+      .images {
         background-color: red;
       }
       .images img:hover {
         opacity: 0.2;
-        fill-opacity: 0.2;  
-        background-color: red;
   ;    }
       .images {
         position: relative;
@@ -77,6 +75,7 @@ class PolarisChip extends LitElement {
           a:hover { text-decoration: none; color:#001E44; }
           a:focus { text-decoration: none; color:#001E44; }
           a:hover, a:active { text-decoration: none; color:#001E44 }
+
           img { color: #1E407C}
           img:visited { text-decoration: none; color:#1E407C; }
           img:hover { text-decoration: none; color:#001E44; }

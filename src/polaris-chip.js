@@ -23,7 +23,7 @@ class PolarisChip extends LitElement {
       }
       .images:hover {
         opacity: 0.6;
-        
+        background-color: #1E407C;
       }
       .mid-wrapper {
         display: flex;

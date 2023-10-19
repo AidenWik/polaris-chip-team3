@@ -76,6 +76,11 @@ class PolarisChip extends LitElement {
           a:hover { text-decoration: none; color:#001E44; }
           a:focus { text-decoration: none; color:#001E44; }
           a:hover, a:active { text-decoration: none; color:#001E44 }
+          img { color: #1E407C}
+          img:visited { text-decoration: none; color:#1E407C; }
+          img:hover { text-decoration: none; color:#001E44; }
+          img:focus { text-decoration: none; color:#001E44; }
+          img:hover, a:active { text-decoration: none; color:#001E44 }
       
       .title .desc:hover{
         color: #1E407C;
@@ -105,6 +110,7 @@ class PolarisChip extends LitElement {
         <div class="top-title">
           <h2>Recent News</h2>
         </div>
+        <div class = "inner-container">
         <div class="images">
           <a href="https://hr.psu.edu/news/university-reminds-employees-flu-covid-19-vaccines-resources-and-policies">
             <img src="https://hr.psu.edu/sites/hr/files/styles/article_home_page/public/2023-10/FluVaccines_HRFeature.jpg?h=09bc788e&itok=KEMIew2T" alt="picture :D" width="386" height="171">
@@ -126,6 +132,7 @@ class PolarisChip extends LitElement {
         <div class="short-desc">
           <div property="schema:text" class="desc-text"></div>
           <p>Updated information for University employees, as it relates to flu and COVID-19 vaccine resources, health plan coverage, and absence policies.</p>
+        </div>
         </div>
       </div>
     `;

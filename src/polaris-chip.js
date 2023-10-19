@@ -11,14 +11,14 @@ class PolarisChip extends LitElement {
   static get styles() {
     return css`
       .card-container {
-        display: inline-block;
-        max-width: 20px; /* Decrease the maximum width to make the card smaller */
+        display:inline-block;
+        max-width: 400px; /* Set the maximum width of the card */
         width: 100%; /* Make the card responsive within the parent container */
-        padding: 10px; /* Decrease padding for spacing */
+        padding: 20px; /* Add padding for spacing */
         border: 1px solid #ccc;
         text-align: center;
         position: relative;
-        margin-bottom: 20px; /* Reduce the margin-bottom for less spacing between cards */
+        margin-bottom: 200px;
       }
       .images:hover {
         opacity: 0.6;

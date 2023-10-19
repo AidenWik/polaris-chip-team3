@@ -23,6 +23,7 @@ class PolarisChip extends LitElement {
       }
       .images {
         background-color: #005fa9;
+        height: 171px;
 
       }
       .images img:hover {
@@ -31,7 +32,7 @@ class PolarisChip extends LitElement {
       .images {
         position: relative;
         width: 90%;
-        height: 5%;
+        height: 90%;
         margin: 0;
         padding: 0;
         overflow: hidden;

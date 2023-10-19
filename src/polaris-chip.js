@@ -22,9 +22,7 @@ class PolarisChip extends LitElement {
         margin-bottom: 200px;
       }
       .images img{
-        background: none;
         background-color: red;
-        color: none;
       }
       .images img:hover {
         opacity: 0.2;

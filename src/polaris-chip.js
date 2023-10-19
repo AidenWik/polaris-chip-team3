@@ -26,7 +26,7 @@ class PolarisChip extends LitElement {
         background-color: #005fa9;
         color: #005fa9;
       }
-      .images {
+      .images img {
         position: relative;
         width: 90%;
         height: auto;

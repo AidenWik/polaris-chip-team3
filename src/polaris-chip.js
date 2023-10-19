@@ -50,7 +50,7 @@ class PolarisChip extends LitElement {
       }
           a { color: #1E407C}
           a:visited { text-decoration: none; color:#1E407C; }
-          a:hover { background: #005fa9; text-decoration: none; color:#001E44; }
+          a:hover { text-decoration: none; color:#001E44; }
           a:focus { text-decoration: none; color:#001E44; }
           a:hover, a:active { text-decoration: none; color:#001E44 }
       

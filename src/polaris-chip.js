@@ -11,6 +11,7 @@ class PolarisChip extends LitElement {
   static get styles() {
     return css`
       .card-container {
+        background-color: #fff;
         display:inline-block;
         max-width: 400px; /* Set the maximum width of the card */
         width: 100%; /* Make the card responsive within the parent container */

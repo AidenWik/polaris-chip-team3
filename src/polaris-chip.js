@@ -5,6 +5,7 @@ class PolarisChip extends LitElement {
     return {
       month: { type: String },
       day: { type: String },
+      link: { type: String},
     };
   }
 
@@ -102,6 +103,7 @@ class PolarisChip extends LitElement {
     super();
     this.month = 'Oct';
     this.day = '14';
+    this.link = "https://hr.psu.edu/news/university-reminds-employees-flu-covid-19-vaccines-resources-and-policies";
   }
 
   render() {
@@ -112,7 +114,7 @@ class PolarisChip extends LitElement {
         </div>
         <div class = "inner-container">
         <div class="images">
-          <a href="https://hr.psu.edu/news/university-reminds-employees-flu-covid-19-vaccines-resources-and-policies">
+          <a class="link" href="${this.link}">
             <img src="https://hr.psu.edu/sites/hr/files/styles/article_home_page/public/2023-10/FluVaccines_HRFeature.jpg?h=09bc788e&itok=KEMIew2T" alt="picture :D" width="386" height="171">
           </a>
         </div>
@@ -126,7 +128,7 @@ class PolarisChip extends LitElement {
             </div>
           </div>
           <div class="title">
-            <label class="desc"><a style="text-decoration:none" href="https://hr.psu.edu/news/university-reminds-employees-flu-covid-19-vaccines-resources-and-policies"> University reminds employees of flu, COVID-19 vaccines, resources and policies</label></a>
+            <label class="desc"><a style="text-decoration:none" href="${this.link}"> University reminds employees of flu, COVID-19 vaccines, resources and policies</label></a>
           </div>
         </div>
         <div class="short-desc">

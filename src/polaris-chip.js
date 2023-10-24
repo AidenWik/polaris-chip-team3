@@ -20,7 +20,7 @@ class PolarisChip extends LitElement {
         display:inline-block;
         max-width: 400px; /* Set the maximum width of the card */
         width: 100%; /* Make the card responsive within the parent container */
-        text-align: top;
+        text-align: center;
         padding: 0px;
         position: relative;
         margin-bottom: 200px;

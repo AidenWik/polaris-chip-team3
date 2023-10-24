@@ -17,7 +17,6 @@ class PolarisChip extends LitElement {
     return css`
       :host {
         display: inline-block;
-        
       }
       .card-container {
         margin-top: 20px;
@@ -25,7 +24,8 @@ class PolarisChip extends LitElement {
         align-items: top;
         background-color: #fff;
         max-width: 400px;
-        width: 100%;
+        width: 400px;
+        height: 300px;
         text-align: center;
         padding: 0;
         position: relative;

@@ -3,9 +3,13 @@ import { LitElement, html, css } from 'lit-element';
 class PolarisChip extends LitElement {
   static get properties() {
     return {
+      date: { type: String},
       month: { type: String },
       day: { type: String },
       link: { type: String},
+      botdesc: { type: String},
+      image: { type: String},
+      title: { type: String},
     };
   }
 
@@ -102,9 +106,13 @@ class PolarisChip extends LitElement {
 
   constructor() {
     super();
-    this.month = 'Oct';
-    this.day = '14';
-    this.link = "https://hr.psu.edu/news/university-reminds-employees-flu-covid-19-vaccines-resources-and-policies";
+    this.date = 'null';
+    this.month = '';
+    this.day = '';
+    this.botdesc = '';
+    this.image = '';
+    this.title = '';
+    this.link = " ";
   }
 
   render() {
@@ -129,12 +137,12 @@ class PolarisChip extends LitElement {
             </div>
           </div>
           <div class="title">
-            <label class="desc"><a style="text-decoration:none" href="${this.link}"> University reminds employees of flu, COVID-19 vaccines, resources and policies</label></a>
+            <label class="desc"><a style="text-decoration:none" href="${this.link}"> <slot>${this.title}</slot></label></a>
           </div>
         </div>
         <div class="short-desc">
           <div property="schema:text" class="desc-text"></div>
-          <p>Updated information for University employees, as it relates to flu and COVID-19 vaccine resources, health plan coverage, and absence policies.</p>
+          <p><slot>${this.botdesc}</slot></p>
         </div>
         </div>
       </div>

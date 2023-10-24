@@ -29,7 +29,7 @@ class PolarisChip extends LitElement {
         max-width: 400px;
         width: 400px;
         height: 400px;
-        text-align: top;
+        text-align: center;
         padding-left: 8px;
 
       }

@@ -27,7 +27,7 @@ class PolarisChip extends LitElement {
         max-width: 400px;
         width: 400px;
         height: 400px;
-        text-align: center;
+        text-align: top;
         padding: 0;
         position: relative;
         margin-top: 20px;
@@ -108,7 +108,7 @@ class PolarisChip extends LitElement {
       /* Add styles for other elements as needed */
       @media screen and (max-width: 600px) {
         .card-container {
-          display:grid;
+          display: inline-block;
         }
       }
     `;

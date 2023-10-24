@@ -31,7 +31,12 @@ class PolarisChip extends LitElement {
         height: 400px;
         text-align: center;
         padding-left: 8px;
-
+      }
+      .wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 100%;
       }
       .images {
         background-color: #005fa9;

@@ -16,7 +16,8 @@ class PolarisChip extends LitElement {
   static get styles() {
     return css`
       .card-container {
-        display: inline-block
+        display: flex;
+        flex-direction: row;
         align-items: flex-start; /* Align cards at the top of the container */
         background-color: #fff;
         max-width: 400px;

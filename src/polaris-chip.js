@@ -54,7 +54,6 @@ class PolarisChip extends LitElement {
         font-size: 0.8em;
         font-weight: bold;
         line-height: 1.8;
-        padding: 1px 10px;
         text-transform: uppercase;
       }
       .day-label .day{

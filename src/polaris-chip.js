@@ -90,7 +90,7 @@ class PolarisChip extends LitElement {
       
       .title .desc:hover{
         color: #1E407C;
-      }
+      }/*
       .top-title {
         font-size: 1.5em;
         font-weight: 700;
@@ -118,9 +118,6 @@ class PolarisChip extends LitElement {
   render() {
     return html`
       <div class="card-container">
-        <div class="top-title">
-          <h2>Recent News</h2>
-        </div>
         <div class = "inner-container">
         <div class="images">
           <a class="link" href="${this.link}">

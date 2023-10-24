@@ -122,6 +122,7 @@ class PolarisChip extends LitElement {
   render() {
     return html`
       <div class="card-container">
+        <div class="wrapper">
         <div class="images">
           <a class="link" href="${this.link}">
             <img src="${this.image}" alt="picture :D" width="386" height="171">
@@ -143,6 +144,7 @@ class PolarisChip extends LitElement {
         <div class="short-desc">
           <div property="schema:text" class="desc-text"></div>
           <p><slot>${this.botdesc}</slot></p>
+        </div>
         </div>
       </div>
     `;

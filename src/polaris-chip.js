@@ -31,7 +31,6 @@ class PolarisChip extends LitElement {
         height: 400px;
         text-align: top;
         padding-left: 8px;
-        position: relative;
         margin-top: 20px;
       }
       .images {

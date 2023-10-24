@@ -117,10 +117,10 @@ class PolarisChip extends LitElement {
 
   render() {
     return html`
-    <div class="top-title">
+      <div class="card-container">
+        <div class="top-title">
           <h2>Recent News</h2>
         </div>
-      <div class="card-container">
         <div class = "inner-container">
         <div class="images">
           <a class="link" href="${this.link}">

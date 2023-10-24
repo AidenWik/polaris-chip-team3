@@ -17,11 +17,6 @@ class PolarisChip extends LitElement {
     return css`
       .card-container {
         display: inline-block;
-        margin: 0;
-        padding: 0;
-        position: relative;
-        width: 100%;
-        height: 100%;
         align-items: center;
         background-color: #fff;
         max-width: 400px;
@@ -127,7 +122,6 @@ class PolarisChip extends LitElement {
   render() {
     return html`
       <div class="card-container">
-        <div class = "inner-container">
         <div class="images">
           <a class="link" href="${this.link}">
             <img src="${this.image}" alt="picture :D" width="386" height="171">
@@ -149,7 +143,6 @@ class PolarisChip extends LitElement {
         <div class="short-desc">
           <div property="schema:text" class="desc-text"></div>
           <p><slot>${this.botdesc}</slot></p>
-        </div>
         </div>
       </div>
     `;

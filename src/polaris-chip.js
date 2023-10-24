@@ -47,7 +47,7 @@ class PolarisChip extends LitElement {
         opacity: 0.7;
       }
       .mid-wrapper {
-        padding-top: 15px;
+
         display: flex;
         flex-direction: row;
       }

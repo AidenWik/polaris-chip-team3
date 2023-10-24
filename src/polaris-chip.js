@@ -124,7 +124,7 @@ class PolarisChip extends LitElement {
         <div class = "inner-container">
         <div class="images">
           <a class="link" href="${this.link}">
-            <img src="https://hr.psu.edu/sites/hr/files/styles/article_home_page/public/2023-10/FluVaccines_HRFeature.jpg?h=09bc788e&itok=KEMIew2T" alt="picture :D" width="386" height="171">
+            <img src="${this.image}" alt="picture :D" width="386" height="171">
           </a>
         </div>
         <div class="mid-wrapper">

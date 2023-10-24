@@ -23,6 +23,7 @@ class PolarisChip extends LitElement {
         padding: 20px; /* Add padding for spacing */
         border: 1px solid #ccc;
         text-align: center;
+        padding: 0px;
         position: relative;
         margin-bottom: 200px;
       }

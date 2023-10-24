@@ -103,7 +103,7 @@ class PolarisChip extends LitElement {
       /* Add styles for other elements as needed */
       @media screen and (max-width: 600px) {
         .card-container {
-          width: 100%;
+          display:grid;
         }
       }
     `;

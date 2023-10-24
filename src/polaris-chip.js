@@ -16,14 +16,16 @@ class PolarisChip extends LitElement {
   static get styles() {
     return css`
       .card-container {
+        display: flex;
+        flex-direction: column; /* Stack the cards vertically */
+        align-items: flex-start; /* Align cards at the top of the container */
         background-color: #fff;
-        display:inline-block;
-        max-width: 400px; /* Set the maximum width of the card */
-        width: 100%; /* Make the card responsive within the parent container */
+        max-width: 400px;
+        width: 100%;
         text-align: center;
-        padding: 0px;
+        padding: 0;
         position: relative;
-        
+        margin-top: 20px;
       }
       .images {
         background-color: #005fa9;

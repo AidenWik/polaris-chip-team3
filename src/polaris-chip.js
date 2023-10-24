@@ -22,7 +22,7 @@ class PolarisChip extends LitElement {
         width: 100%; /* Make the card responsive within the parent container */
         text-align: center;
         padding: 0px;
-        position: relative;
+        position: top;
         margin-bottom: 200px;
       }
       .images {

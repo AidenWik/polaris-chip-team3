@@ -10,11 +10,15 @@
       .container {
         display: inline-flex;
       }
-      @media screen and (max-width: 500px) {
+      @media (min-width: 768px){
         .container {
-          display: inline-block;
-        }
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+}
       }
+      
       body {
         margin: 0;
         padding: 0;

@@ -10,13 +10,10 @@
       .container {
         display: inline-flex;
       }
-      @media (min-width: 768px){
-        .card-container {
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        grid-column-gap: 20px;
-        grid-row-gap: 20px;
-}
+      @media screen and (max-width: 500px) {
+        .container {
+          display: inline-block;
+        }
       }
       body {
         margin: 0;

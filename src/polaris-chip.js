@@ -16,7 +16,7 @@ class PolarisChip extends LitElement {
   static get styles() {
     return css`
       :host {
-        display: block;
+        display: inline-block;
         font-family: 'Roboto',sans-serif;
         font-size: 16px;
         font-weight: 400;

@@ -19,14 +19,6 @@ class PolarisChip extends LitElement {
       :host {
 
       }
-      @media (min-width: 768px){
-        .card-container {
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        grid-column-gap: 20px;
-        grid-row-gap: 20px;
-}
-      }
       .card-container {
         display: inline-block;
         align-items: top;

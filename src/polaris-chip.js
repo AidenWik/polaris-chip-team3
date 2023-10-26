@@ -3,6 +3,7 @@ import { LitElement, html, css } from 'lit-element';
 class PolarisChip extends LitElement {
   static get properties() {
     return {
+      timestamp: {type: String},
       date: { type: String},
       month: { type: String },
       day: { type: String },
@@ -16,14 +17,9 @@ class PolarisChip extends LitElement {
   static get styles() {
     return css`
       :host {
-        display: inline-block;
-        font-family: 'Roboto',sans-serif;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1.5;
-        color: #001E44;
-        background-color: #fff;
+
       }
+      
       .card-container {
         display: inline-block;
         align-items: top;

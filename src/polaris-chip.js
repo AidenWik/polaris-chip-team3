@@ -19,7 +19,7 @@ class PolarisChip extends LitElement {
 
       }
       .card-container {
-        margin-top: 20px;
+
         display: inline-block;
         align-items: top;
         background-color: #fff;

@@ -105,6 +105,18 @@ class PolarisChip extends LitElement {
       }
     `;
   }
+  updated(changedProperties) {
+    changedProperties.forEach((oldValue, propName) => {
+      if (["timestamp", "format", "unix"].includes(propName) && this.timestamp) {
+        let stamp = this.timestamp;
+        if (this.unix) {
+          stamp = stamp * 1000;
+        }
+        this.month = new Date(stamp).toLocaleString('default', { month: 'long'}).substring(0, 3);
+        this.day = new Date(stamp).getDate();
+      }
+    });
+   }
 
   constructor() {
     super();
@@ -115,6 +127,7 @@ class PolarisChip extends LitElement {
     this.image = '';
     this.title = '';
     this.link = " ";
+    this.timestamp = '';
   }
 
   render() {

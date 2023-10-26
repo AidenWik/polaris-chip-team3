@@ -16,7 +16,13 @@ class PolarisChip extends LitElement {
   static get styles() {
     return css`
       :host {
-        background-color: white;
+        display: block;
+        font-family: 'Roboto',sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #001E44;
+        background-color: #fff;
       }
       .card-container {
         display: inline-block;

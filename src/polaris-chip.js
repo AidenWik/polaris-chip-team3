@@ -43,7 +43,7 @@ class PolarisChip extends LitElement {
       }
       .mid-wrapper {
         padding-top: 15px;
-        display: block
+        display: flex;
         flex-direction: row;
       }
       .month-label .month{
